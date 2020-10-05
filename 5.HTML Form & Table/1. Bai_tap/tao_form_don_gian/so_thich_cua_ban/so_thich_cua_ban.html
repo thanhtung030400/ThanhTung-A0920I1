@@ -5,23 +5,32 @@
     <title>Title</title>
 </head>
 <body>
-<form method="get" action="simpleform.html">
-    <table boder="1"</table>
-    <tr> sở thích của bạn </tr>
+<table border="1"></table>
     <tr>
-        <th><label>Họ và tên</label><br></th>
-        <th colspan="1"><input type = "text" name="yourname" placeholder="họ và tên" size="15"/></th>
+        <h2> sở thích của bạn </h2>
     </tr>
-    <tr>
-        <th><label>email</label></th>
-        <th colspan="1"><input type = "text"name="email" placeholder="" size="15"/></th>email
-    </tr>
-    <tr>
-        <th><label>Sở thích</label>
-            <input type="checkbox" name="hobby" value="sport" /> <label> thể thao</label>
-            <input type="checkbox" value="music" /> <label> âm nhạc</label></th>
-
-
-
+    <form action="/action_page.php"; color="orange">
+        Họ và tên:
+        <input type="text" name="yourname">
+        <br>Email:
+        <input type="text" name="email">
+        <br>Sở thích:
+        <table width="500px">
+            <tr>
+                <td><input type="checkbox"> thể thao</td>
+                <td><input type="checkbox"> âm nhạc</td>
+                <td><input type="checkbox"> đọc sách</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> lướt web</td>
+                <td><input type="checkbox"> chơi game</td>
+                <td><input type="checkbox"> điện ảnh</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> du lịch</td>
+            </tr>
+        </table>
+        <button type="submit"> Gửi thông tin
+        <button type="reset"> Nhập lại
 </body>
 </html>

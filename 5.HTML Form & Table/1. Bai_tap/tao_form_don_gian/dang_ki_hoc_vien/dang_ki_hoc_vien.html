@@ -5,36 +5,40 @@
     <title>Title</title>
 </head>
 <body>
-    <table boder="1"></table>
-        <tr>
-            <th> đăng kí học viên</th>
-        </tr>
+<div style="background: lightskyblue;width: 500px">
+<table boder="1" >
+    <tr>
+        <h2 style="background: yellow ;color: blue"> đăng kí học viên</h2>
+    </tr>
     <form action="/action_page.php">
         họ và tên:
-        <input type="text" name="yourname" placeholder="họ và tên">
+        <input type="text" name="yourname"  "họ và tên">
         <br>ngày sinh:
         <input name="birthday" type="text">
         <br>giới tính:
-        <input type="radio" name="gender" value="male"> nam<br>
+        <input type="radio" name="gender" value="male"> nam
         <input type="radio" name="gender" value="famale"> nữ<br>
-    <form method="POST">
-        địa chỉ:
-        <textarea cols="50" rows="4"></textarea>
+        <form method="POST">
+            địa chỉ:
+            <textarea cols="50" rows="4"></textarea>
+        </form>
+        <form action="/action_page.php">
+            <br>   lớp:
+            <select>
+                <option value="  ">A</option>
+                <option>B</option>
+                <option>C</option>
+            </select>
+            <br>email:
+            <input type="text" name="email">
+            <br>điện thoại:
+            <input type="tel" name="tel">
+            <br><input type="submit" value="đăng kí">
+            <input type="reset" value="nhập lại">
+        </form>
     </form>
-    <form action="/action_page.php">
-        lớp:
-        <select>
-            <option value = "  ">A</option>
-            <option>B </option>
-            <option>C </option>
-        </select>
-        <br>email:
-        <input type="text" name="email">
-        <br>điện thoại:
-        <input type="tel" name="tel">
-        <br><input type="submit" value="đăng kí">
-        <input type="reset" value="nhập lại">
-    </form>
-
+</table>
+</div>
 </body>
+
 </html>
