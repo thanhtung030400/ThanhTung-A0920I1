@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="186f777a-62d6-4c1c-bd85-a7a561b2160c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../6. Tổng quan JavaScript/1. Thuc_hanh/hien_thi_dau_ra/.idea/hien_thi_dau_ra.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../6. Tổng quan JavaScript/1. Thuc_hanh/hien_thi_dau_ra/hien_thi_dau_ra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../6. Tổng quan JavaScript/1. Thuc_hanh/nhung_Javascript/.idea/nhung_Javascript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../6. Tổng quan JavaScript/1. Thuc_hanh/nhung_Javascript/Nhung_Javascript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Thuc_hanh/khai_bao_va_su_dung_bien/.idea/khai_bao_va_su_dung_bien.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Thuc_hanh/khai_bao_va_su_dung_bien/khai_bao_va_su_dug_bien.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Thuc_hanh/khai_bao_va_su_dung_bien/khai_bao_va_su_dung_bien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Thuc_hanh/su_dung_toan_tu/.idea/su_dung_toan_tu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Thuc_hanh/su_dung_toan_tu/su_dung_toan_tu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.Thuc_hanh/su_dung_toan_tu/su_dung_toan_tu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/F to C/.idea/F to C.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/F to C/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/F to C/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/F to C/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/F to C/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/F to C/F to C.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/F to C/F to C.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/chu_vi_hinh_tron/.idea/chu_vi_hinh_tron.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/chu_vi_hinh_tron/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/chu_vi_hinh_tron/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/chu_vi_hinh_tron/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/chu_vi_hinh_tron/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/chu_vi_hinh_tron/chu_vi_hinh_tron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/chu_vi_hinh_tron/chu_vi_hinh_tron.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/dien_tich_hinh_tron/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/dien_tich_hinh_tron/.idea/dien_tich_hinh_tron.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/dien_tich_hinh_tron/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/dien_tich_hinh_tron/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/dien_tich_hinh_tron/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/dien_tich_hinh_tron/dien_tich_hinh_tron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/dien_tich_hinh_tron/dien_tich_hinh_tron.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/trung_binh_mon/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/trung_binh_mon/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/trung_binh_mon/.idea/trung_binh_mon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/trung_binh_mon/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/trung_binh_mon/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/trung_binh_mon/trung_binh_mon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien,_kieu_du_lieu_va_toan_tu/trung_binh_mon/trung_binh_mon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ung_dung_chuyen_doi_tien_te/.idea/2.Bai_tap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ung_dung_may_tinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ung_fung_may_tinh.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1iXi4jKkGauntc9d4biwEMdYNcd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="186f777a-62d6-4c1c-bd85-a7a561b2160c" name="Default Changelist" comment="" />
+      <created>1602060147836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602060147836</updated>
+      <workItem from="1602060148957" duration="1566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
