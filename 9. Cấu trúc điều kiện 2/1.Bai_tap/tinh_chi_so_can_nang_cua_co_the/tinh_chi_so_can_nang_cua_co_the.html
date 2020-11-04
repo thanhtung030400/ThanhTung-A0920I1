@@ -18,12 +18,11 @@
         let chieuCao=parseFloat(document.getElementById("nhaoChieuCao").value);
         let canNang=parseFloat(document.getElementById("nhapCanNang").value);
         let result = document.getElementById("ketQua");
-        result = canNang/(chieuCao^2);
-        if (result < 18.5){
+        if (canNang/chieuCao^2 < 18.5){
             result.innerText="Underweight";
-        }else if (18.5 <= result < 25.0){
+        }else if (18.5 <= canNang/chieuCao^2 < 25.0){
             result.innerText="Normal";
-        }else if (25.0 <= result < 30.0){
+        }else if (25.0 <= canNang/chieuCao^2 < 30.0){
             result.innerText="Overweight";
         }else
             result.innerText="Obese";

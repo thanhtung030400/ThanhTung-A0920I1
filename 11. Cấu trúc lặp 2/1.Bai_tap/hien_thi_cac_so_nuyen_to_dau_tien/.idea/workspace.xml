@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="197a5486-39bd-46e6-9a7f-60862882f02b" name="Default Changelist" comment="">
+    <list default="true" id="2ddcbec8-120c-4542-8a97-b03bcc9631db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su _dung_vong_lap_for/bai_1/.idea/bai_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su _dung_vong_lap_for/bai_2/.idea/bai_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su_dung_vong_lap_do_while/.idea/su_dung_vong_lap_do_while.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su_dung_vong_lap_long_nhau/.idea/su_dung_vong_lap_long_nhau.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su_dung_vong_lap_while/bai_1/.idea/bai_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su_dung_vong_lap_while/bai_2/.idea/bai_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hien_thi_cac_so_nuyen_to_dau_tien.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hien_thi_cac_so_nguyen_to_dau_tien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sinh_bang_cuu_chuong/.idea/sinh_bang_cuu_chuong.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sinh_bang_cuu_chuong/sinh_bang_cuu_chuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. Cấu trúc điều kiện 2/1.Bai_tap/luyen_tap_cau_truc_dieu_kien_1/lon_hon_hay_nho_hon_0/.idea/lon_hon_hay_nho_hon_0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. Cấu trúc điều kiện 2/1.Bai_tap/luyen_tap_cau_truc_dieu_kien_1/nhap_3_so_nguyen_va_tim_gia_tri_lon_nhat_cua_ba_so_nguyen_do/.idea/nhap_3_so_nguyen_va_tim_gia_tri_lon_nhat_cua_ba_so_nguyen_do.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. Cấu trúc điều kiện 2/1.Bai_tap/luyen_tap_cau_truc_dieu_kien_1/nhap_vao_hai_so_a_va_b_va_kiem_tra_xem_a_co_chia_het_cho_b_hay_khong/.idea/nhap_vao_hai_so_a_va_b_va_kiem_tra_xem_a_co_chia_het_cho_b_hay_khong.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../9. Cấu trúc điều kiện 2/1.Bai_tap/ung_dung_do_you_love_me/.idea/ung_dung_do_you_love_me.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su _dung_vong_lap_for/bai_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su _dung_vong_lap_for/bai_1/bai_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su _dung_vong_lap_for/bai_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su _dung_vong_lap_for/bai_2/bai_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su_dung_vong_lap_do_while/su_dung_vong_lap_do_while.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10. Cấu trúc lặp 1/1. Thuc_hanh/su_dung_vong_lap_do_while/su_dung_vong_lap_do_while.html" afterDir="false" />
@@ -33,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1irqFpRF7qQNBIgOzVgYP3i2lFZ" />
+  <component name="ProjectId" id="1irqNbCuJ3n9mFKat3VhplQk7Nc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,6 +59,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -50,12 +67,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="197a5486-39bd-46e6-9a7f-60862882f02b" name="Default Changelist" comment="" />
-      <created>1602675957967</created>
+      <changelist id="2ddcbec8-120c-4542-8a97-b03bcc9631db" name="Default Changelist" comment="" />
+      <created>1602676018984</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602675957967</updated>
-      <workItem from="1602675959179" duration="25000" />
+      <updated>1602676018984</updated>
+      <workItem from="1602676020141" duration="1692000" />
     </task>
     <servers />
   </component>

@@ -6,42 +6,60 @@
 </head>
 <body>
 <div style="display: flex;">
-    <div id="a" style=" width: 250px;"><img src="https://pbs.twimg.com/media/D4iB8kRU0AEvts5.jpg" onclick="changeImageA()" id="carA" width="250 px" height="600 px"></div>
-    <img src="https://pbs.twimg.com/media/Duy24BJX4AMDLoq.jpg" onclick="changeImageB()" id="carB" width="250 px" height="600 px">
-    <img src="https://i.pinimg.com/originals/21/14/af/2114af3e4ed4342a3077c4566511e807.jpg" id="carC" onclick="changeImageC()" width="250 px" height="600 px">
-    <img src="https://www.thetrace.org/wp-content/uploads/2016/02/FN5701.jpg" id="carD" onclick="changeImageD()" width="250 px" height="600 px">
-    <img src="Images/Hinh 2e.png" id="carE" onclick="changeImageE()" width="250 px" height="600 px">
+    <div id="a" style=" width: 250px;"><img src="anh1/anh1a.jpg" onclick="changeImageA()" id="gunA" width="250 px" height="600 px"></div>
+    <img src="anh1/anh1b.jpg" onclick="changeImageB()" id="gunB" width="250 px" height="600 px">
+    <img src="anh1/anh1c.jpg" id="gunC" onclick="changeImageC()" width="250 px" height="600 px">
+    <img src="anh1/anh1d.jpg" id="gunD" onclick="changeImageD()" width="250 px" height="600 px">
 </div>
 </body>
 <script>
-    let imageA = document.getElementById("carA");
-    let imageB = document.getElementById("carB");
-    let imageC = document.getElementById("carC");
-    let imageD = document.getElementById("carD");
-    let imageE = document.getElementById("carE");
+    let imageA = document.getElementById("gunA");
+    let imageB = document.getElementById("gunB");
+    let imageC = document.getElementById("gunC");
+    let imageD = document.getElementById("gunD");
     function changeImageA() {
-        if(imageA.getAttribute("src") ==="https://pbs.twimg.com/media/D4iB8kRU0AEvts5.jpg") {
-            imageA.src = "https://pbs.twimg.com/media/Duy24BJX4AMDLoq.jpg";
-        } else if(imageA.getAttribute("src") ==="https://pbs.twimg.com/media/Duy24BJX4AMDLoq.jpg") {
-            imageA.src = "https://i.pinimg.com/originals/21/14/af/2114af3e4ed4342a3077c4566511e807.jpg";
+        if(imageA.getAttribute("src") ==="anh1/anh1a.jpg") {
+            imageA.src = "anh2/anh2a.jpg";
+        } else if(imageA.getAttribute("src") ==="anh2/anh2a.jpg") {
+            imageA.src = "anh3/anh3a.jpg";
         } else {
-            imageA.src = "https://pbs.twimg.com/media/D4iB8kRU0AEvts5.jpg";
+            imageA.src = "anh1/anh1a.jpg";
         }
         check();
     }
     function changeImageB() {
-        if(imageB.getAttribute("src") ==="Images/Hinh 1b.png") {
-            imageB.src = "Images/Hinh 2b.png";
-        } else if(imageB.getAttribute("src") ==="Images/Hinh 2b.png") {
-            imageB.src = "Images/Hinh 3b.png";
+            if(imageB.getAttribute("src") ==="anh1/anh1b.jpg") {
+            imageB.src = "anh2/anh2b.jpg";
+        } else if(imageB.getAttribute("src") ==="anh2/anh2b.jpg") {
+            imageB.src = "anh3/anh3b.jpg";
         } else {
-            imageB.src = "Images/Hinh 1b.png";
+            imageB.src = "anh1/anh1b.jpg";
+        }
+        check();
+    }
+    function changeImageC() {
+        if (imageC.getAttribute("src") === "anh1/anh1c.jpg") {
+            imageC.src = "anh2/anh2c.jpg";
+        } else if (imageC.getAttribute("src") === "anh2/anh2c.jpg") {
+            imageC.src = "anh3/anh3c.jpg";
+        } else {
+            imageC.src = "anh1/anh1c.jpg"
+        }
+        check();
+    }
+    function changeImageD(){
+        if (imageD.getAttribute("src") ==="anh1/anh1d.jpg") {
+            imageD.src = "anh2/anh2d.jpg";
+        }else if (imageD.getAttribute("src") === "anh2/anh2d.jpg") {
+            imageD.src = "anh3/anh3d.jpg";
+        }else{
+            imageD.src = "anh1/anh1d.jpg";
         }
         check();
     }
     function check() {
-        if(imageA.getAttribute("src")==="Images/Hinh 1a.png"&&imageB.getAttribute("src")==="Images/Hinh 1b.png") {
-            document.getElementById("a").style.border= "thick solid blue"
+        if(imageA.getAttribute("src")==="anh1/anh1a.jpg"&&imageB.getAttribute("src")==="anh1/anh1d.jpg") {
+            document.getElementById("a").style.border= "thick solid blue";
         }
     }
 </script>

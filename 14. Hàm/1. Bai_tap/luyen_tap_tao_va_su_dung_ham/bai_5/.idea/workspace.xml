@@ -27,9 +27,29 @@
       <change afterPath="$PROJECT_DIR$/../bai_1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bai_1/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bai_1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_2/.idea/bai_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_2/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bai_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_3/.idea/bai_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_3/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bai_3/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_4/.idea/bai_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_4/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bai_4/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bai_5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai_5.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../2. Thuc_hanh/chuyen_doi_nhiet_do/.idea/chuyen_doi_nhiet_do.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../2. Thuc_hanh/tao_va_goi_ham/.idea/tao_va_goi_ham.iml" afterDir="false" />
@@ -111,6 +131,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../9. Cấu trúc điều kiện 2/1.Bai_tap/luyen_tap_cau_truc_dieu_kien_1/nhap_3_so_nguyen_va_tim_gia_tri_lon_nhat_cua_ba_so_nguyen_do/nhap_3_so_nguyen_va_tim_gia_tri_lon_nhat_trong_ba_so_nguyen_do.html" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -122,11 +143,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603716662942</updated>
-      <workItem from="1603716664128" duration="453000" />
+      <workItem from="1603716664128" duration="2329000" />
+      <workItem from="1603951814312" duration="3675000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="172" y="168" key="FileChooserDialogImpl" timestamp="1603962628547">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="172" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603962628547" />
   </component>
 </project>
