@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2271453-6ecf-4ff6-b983-0494204656f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../16. Lập trình hướng đối tượng/2.Bai_tap/cong_tac_va_bong_den/.idea/cong_tac_va_bong_den.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../16. Lập trình hướng đối tượng/2.Bai_tap/cong_tac_va_bong_den/cong_tac_va_bong_den.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/Module1_AccountName.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/request 6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request 6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../11. Cấu trúc lặp 2/1.Bai_tap/luyen_tap_vong_lap_01/bai_6/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../11. Cấu trúc lặp 2/1.Bai_tap/luyen_tap_vong_lap_01/bai_6/bai_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../request 1/request_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../request 1/request_1.html" afterDir="false" />
-    </list>
+    <list default="true" id="a2271453-6ecf-4ff6-b983-0494204656f7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605718584206</updated>
       <workItem from="1605718587191" duration="12629000" />
-      <workItem from="1605812495542" duration="746000" />
+      <workItem from="1605812495542" duration="1495000" />
     </task>
     <servers />
   </component>
