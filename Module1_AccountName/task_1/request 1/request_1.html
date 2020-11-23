@@ -317,6 +317,7 @@
     }
 
     function removeSelectedRow() {
+        if(confirm("bạn có muốn xóa "+ table.rows[rIndex].cells[10].innerHTML+" này hay không?")) {
         table.deleteRow(rIndex);
         // clear input text;
         document.getElementById("fullName").value = "";
@@ -330,6 +331,10 @@
         document.getElementById("peopleNum").value = "";
         document.getElementById("typeService").value = "";
         document.getElementById("roomType").value = "";
+        // if(confirm("bạn có muốn xóa "+ table.rows[rIndex].cells[10].innerHTML+" này hay không?")) {
+            listStudent.splice(i,1);
+            displayStudent();
+        }
     }
 
     function resultPrice() {

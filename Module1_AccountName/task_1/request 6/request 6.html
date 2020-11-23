@@ -47,9 +47,9 @@
         }
 
         roomCost() {
-            let roomPay = this.typeService * this.dayNum * (1 - this.discount / 100);
-            document.write()
-            return roomPay;
+            // let roomPay = this.typeService * this.dayNum * (1 - this.discount / 100);
+            // document.write()
+            // return roomPay;
         }
     }
     let listStudent = [];
@@ -87,13 +87,15 @@
             temp+="<td>"+listStudent[i].getDayNum()+"</td>";
             temp+="<td>"+listStudent[i].getTypeService()+"</td>";
             temp+="<td>"+listStudent[i].getRoomType()+"</td>";
+
+            temp+="<td><button onclick='resultPrice("+i+")'>Price</button></td>";
             temp+="<td><button onclick='changeStudent("+i+")'>Edit </button></td>";
             temp+="<td><button onclick='deleteStudent("+i+")'>Delete </button></td>";
             temp+="</tr>";
 
-            // let price = ""+listStudent[i].getTypeService()+" * "+listStudent[i].getDayNum()+" * (1 - "+listStudent[i].getDiscount()+" / 100)";
-            // let resultPrice = document.getElementById("resultPrice");
-            // resultPrice.innerText = "Total price: " + price + "$";
+
+
+
 
         }
         temp+="</table>";
@@ -101,6 +103,11 @@
         document.writeln(temp);
 
 
+
+    }
+    function resultPrice(i) {
+        let price = parseInt(listStudent[i].getTypeService()) + parseInt(listStudent[i].getDayNum()) + parseInt(listStudent[i].getDiscount());
+        alert(price)
 
     }
     function addStudent() {
@@ -151,6 +158,7 @@
     function changeStudent(i) {
         document.body.innerHTML="";
         let temp = "Full name: <input type='text' id='fullname' value='"+listStudent[i].getFullName()+"'><br>";
+
         temp+="Ssn: <input type='number' id='ssn' value='"+listStudent[i].getSsn()+"'><br>";
         temp+="Birthday: <input type='date' id='birthday' name='birthday' value='"+listStudent[i].getBirthday()+"'><br>";
         temp+="Email: <input type='email' id='email' value='"+listStudent[i].getEmail()+"'><br>";
@@ -171,14 +179,18 @@
         temp+="<option value='100'>Room</option>";
         temp+="</select><br>";
         temp+="Type room <select id='roomType' value='"+listStudent[i].getRoomType()+"'>";
-        temp+="<option value='vip'>V.I.P</option>";
+        temp+="<.option value='vip'>V.I.P</." +
+            ".option>";
         temp+="<option value='business'>Business</option>";
         temp+="<option value='normeal'>Normal</option>";
         temp+="</select><br>";
         temp+="<button onclick='successEditStudent("+i+")'>Edit Student</button>"
+
+
         document.writeln(temp);
     }
     function successEditStudent(i) {
+
         let fullName = document.getElementById("fullname").value;
         let ssn = document.getElementById("ssn").value;
         let birthday = document.getElementById("birthday").value;
@@ -191,9 +203,7 @@
         let typeService = document.getElementById("typeService").value;
         let roomType = document.getElementById("roomType").value;
         listStudent[i] = new Customer(fullName, ssn, birthday, email, address, customerType, discount, peopleNum, dayNum , typeService, roomType);
-        let price = ""+listStudent[i].getTypeService()+" * "+listStudent[i].getDayNum()+" * (1 - "+listStudent[i].getDiscount()+" / 100)";
-        let resultPrice = document.getElementById("resultPrice");
-        resultPrice.innerText = "Total price: " + price + "$";
+
         displayStudent();
     }
     function deleteStudent(i) {
