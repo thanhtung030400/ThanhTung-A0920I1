@@ -52,6 +52,9 @@
             // return roomPay;
         }
     }
+
+
+
     let listStudent = [];
     listStudent.push(new Customer("Hai", 12345678, "01/02/1999", "qw@gmail.com", "Quang Nam", "diamond", 30, 5, 6, 500, "vip"));
     listStudent.push(new Customer("Hai1", 12345678, "01/02/1999", "qw@gmail.com", "Quang Nam", "diamond", 50, 2, 7, 300, "vip"));
@@ -179,8 +182,7 @@
         temp+="<option value='100'>Room</option>";
         temp+="</select><br>";
         temp+="Type room <select id='roomType' value='"+listStudent[i].getRoomType()+"'>";
-        temp+="<.option value='vip'>V.I.P</." +
-            ".option>";
+        temp+="<option value='vip'>V.I.P</option>";
         temp+="<option value='business'>Business</option>";
         temp+="<option value='normeal'>Normal</option>";
         temp+="</select><br>";

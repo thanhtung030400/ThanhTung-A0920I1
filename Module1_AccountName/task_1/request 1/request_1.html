@@ -123,7 +123,7 @@
             ssn = document.getElementById("ssn").value,
             birthday = document.getElementById("birthday").value,
             email = document.getElementById("email").value,
-            pettern = /^[^] + @ [^] + \. [ a - z] {2,3}$/, // check email is valid or not
+            emailValid = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/, // check email is valid or not
             address = document.getElementById("address").value,
             customerType = document.getElementById("customerType").value,
             discount = document.getElementById("discount").value,
@@ -149,16 +149,16 @@
             alert("Address Cannot Be Empty");
             isEmpty = true;
         } else if (customerType === "") {
-            alert(" Cannot Be Empty");
+            alert(" customer type Cannot Be Empty");
             isEmpty = true;
         } else if (discount === "") {
-            alert(" Cannot Be Empty");
+            alert("discount Cannot Be Empty");
             isEmpty = true;
         } else if (peopleNum === "") {
-            alert(" Cannot Be Empty");
+            alert("people num Cannot Be Empty");
             isEmpty = true;
         } else if (dayNum === "") {
-            alert(" Cannot Be Empty");
+            alert("day num Cannot Be Empty");
             isEmpty = true;
         } else if (typeService === "") {
             alert("Cannot Be Empty");
@@ -168,11 +168,11 @@
             isEmpty = true;
         }
 
-        // if (email.match(pettern)){
-        // }else {
-        //     alert("please enter your valid email");
-        //     isEmpty = true;
-        // }
+        if (email.match(emailValid)){
+        }else {
+            alert("please enter your valid email");
+            isEmpty = true;
+        }
 
         if (ssn > 99999999 && ssn < 1000000000) {     // id is xxxxxxxxx number format
             alert("please enter your valid ssn number");
@@ -245,7 +245,7 @@
             cell11.innerHTML = roomType;
             cell12.innerHTML = `<button type="button" onclick="editHtmlTbleSelectedRow(this);">Edit</button>`;
             cell13.innerHTML = `<button type="button" onclick="removeSelectedRow(this);">Remove</button>`;
-            cell14.innerHTML = `<button type="button" id="resultPrice" onclick="resultPrice(this);">Total</button>`;
+            cell14.innerHTML = `<button type="button" id="resultPrice" onclick="resultPrice();">Total</button>`;
 
 
             // call the function to set the event to the new row
@@ -262,7 +262,8 @@
 
         let price = parseInt(typeService) * parseInt(dayNum) * (1 - discount / 100);
         let resultPrice = document.getElementById("resultPrice").value;
-        resultPrice.innerText = "Total price: " + price + "$";
+        //
+        alert(price);
 
         for (let i = 1; i < table.rows.length; i++) {
             table.rows[i].onclick = function () {
@@ -313,35 +314,39 @@
         }
         let price = parseInt(typeService) * parseInt(dayNum) * (1 - discount / 100);
         let resultPrice = document.getElementById("resultPrice");
-        resultPrice.innerText = "Total price: " + price + "$";
+        // resultPrice.innerText = "Total price: " + price + "$";
+        alert(price)
     }
 
     function removeSelectedRow() {
-        if(confirm("bạn có muốn xóa "+ table.rows[rIndex].cells[10].innerHTML+" này hay không?")) {
-        table.deleteRow(rIndex);
-        // clear input text;
-        document.getElementById("fullName").value = "";
-        document.getElementById("ssn").value = "";
-        document.getElementById("birthday").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("address").value = "";
-        document.getElementById("age").value = "";
-        document.getElementById("customerType").value = "";
-        document.getElementById("discount").value = "";
-        document.getElementById("peopleNum").value = "";
-        document.getElementById("typeService").value = "";
-        document.getElementById("roomType").value = "";
-        // if(confirm("bạn có muốn xóa "+ table.rows[rIndex].cells[10].innerHTML+" này hay không?")) {
-            listStudent.splice(i,1);
-            displayStudent();
+        if (confirm("bạn có muốn xóa " + table.rows[rIndex].cells[10].innerHTML + " này hay không?")) {
+            table.deleteRow(rIndex);
+            // clear input text;
+            document.getElementById("fullName").value = "";
+            document.getElementById("ssn").value = "";
+            document.getElementById("birthday").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("address").value = "";
+            document.getElementById("age").value = "";
+            document.getElementById("customerType").value = "";
+            document.getElementById("discount").value = "";
+            document.getElementById("peopleNum").value = "";
+            document.getElementById("typeService").value = "";
+            document.getElementById("roomType").value = "";
+            if (confirm("bạn có muốn xóa " + table.rows[rIndex].cells[10].innerHTML + " này hay không?")) {
+                listStudent.splice(i, 1);
+                displayStudent();
+            }
         }
     }
 
-    function resultPrice() {
-        let price = parseInt(typeService) * parseInt(dayNum) * (1 - discount / 100);
-        let resultPrice = document.getElementById("resultPrice");
-        resultPrice.innerText = "Total price: " + price + "$";
-    }
+    // function resultPrice() {
+    //     let price = parseInt(typeService) * parseInt(dayNum) * (1 - discount / 100);
+    //     let resultPrice = document.getElementById("resultPrice");
+    //     // resultPrice.innerText = "Total price: " + price + "$";
+    //     alert(price);
+    //
+    // }
 
     // function submit() {
     //     let name = document.getElementById("fullname");
